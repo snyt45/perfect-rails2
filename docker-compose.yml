@@ -10,6 +10,7 @@ services:
       - bundle_data:/usr/local/bundle
     ports:
       - "3000:3000"
+      - "9292:9292" # Rackのポート
 
 volumes:
   bundle_data:
